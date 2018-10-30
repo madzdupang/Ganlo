@@ -4,7 +4,7 @@
   "description": "Mock Website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
   "repository": {
     "type": "git",
@@ -14,5 +14,8 @@
     "Ganlo"
   ],
   "author": "Almahdee Gaddong",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.9.4"
+  }
 }
